@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Check V và Xóa</title>
+</head>
+<body>
+<script>
+    let arrInteger = [];
+    for (let i = 0; i < 10 ; i++){
+        arrInteger[i]= prompt("Nhập vào đây 1 số: ");
+    }
+    let V = prompt('Nhập vào đây số cần kiểm tra: ');
+    for (let j = 0; j < arrInteger.length; j++){
+        if (V == arrInteger[j]){
+            arrInteger.splice(j,1);
+        }
+    } document.write(arrInteger);
+</script>
+</body>
+</html>

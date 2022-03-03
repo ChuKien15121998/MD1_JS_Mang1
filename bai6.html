@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Check V</title>
+</head>
+<body>
+<script>
+    let array = [1, 2, 3, 5, 15, 12, 98, 19, 4, 15];
+    let V = +prompt("Nhập vào 1 số nguyên: ");
+    let result;
+    for (let i = 0; i < array.length; i++) {
+        if (V == array[i]) {
+            result = 1
+        }
+    }
+    if (result) {
+        document.write("V is in the array")
+    } else {
+        document.write("V is not in the array")
+    }
+</script>
+</body>
+</html>

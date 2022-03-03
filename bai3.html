@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Giá trị trung bình các phần tử</title>
+</head>
+<body>
+<script>
+    let array = [1, 2, 3, 5, 15, 12, 98, 19, 4, 15];
+    let sum = 0;
+    for (let i = 0; i < array.length; i++) {
+        sum = sum + array[i];
+    }
+    let trungbinh = sum / array.length;
+    document.write(trungbinh);
+</script>
+</body>
+</html>

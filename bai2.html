@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Số lớn nhất trong mảng</title>
+</head>
+<body>
+<script>
+    let array = [1, 2, 3, 5, 15, 12, 98, 19, 4, 15];
+    let max = array[0];
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] > max) {
+            max = array[i]
+            index = i
+        }
+    } document.write("Số lớn nhất là: " + max + "<br>" + "Ở vị trí: " + index);
+</script>
+</body>
+</html>
